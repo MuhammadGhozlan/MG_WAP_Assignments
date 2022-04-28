@@ -1,0 +1,101 @@
+body{
+    display:grid;
+    
+    grid-template-rows: 60% 20% 90% 80%;
+    grid-template-columns: 30% 30% 40%;
+    grid-template-areas: "H H H"
+                         "M1 M2 M3"
+                         "C1 C2 C3"
+                         "F F F";
+}
+
+header{
+    margin-bottom: 0;
+    margin-top: 0;
+    grid-area:H;
+    background-color: rgb(170, 212, 240);
+    text-align: center;
+}
+
+#M1{
+    margin-top: 0;
+    margin-bottom: 0;
+    
+    background-color: rgb(1, 36, 1);
+    color:white;
+    grid-area:M1;
+}
+#M2{
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: rgb(1, 36, 1);
+    color:white;
+    grid-area:M2;
+}
+#M3{
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: rgb(1, 36, 1);
+    color:white;
+        grid-area:M3;
+}
+.flexbox1{
+    display: flex;
+    grid-area:M1;
+    margin-top: 0;
+    border:3px solid black;
+    width:300px;
+    margin-bottom: 0;
+    background-color: rgb(1, 36, 1);
+    color:white;
+
+}
+.flexbox2{
+    display: flex;
+    grid-area:M2;
+    border:3px solid black;
+    width:276px;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: rgb(1, 36, 1);
+    color:white;
+
+}
+.flexbox3{
+    display: flex;
+    grid-area:M3;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: rgb(1, 36, 1);
+    color:white;
+
+}
+
+#C1{
+    margin-top: 0;
+    margin-bottom: 0;
+    grid-area: C1;
+    background-color: gray;
+}
+#C2{
+    margin-top: 0;
+    margin-bottom: 0;
+    grid-area: C2;
+    background-color: gray;
+}
+#C3{
+    margin-top: 0;
+    margin-bottom: 0;
+    grid-area: C3;
+    background-color: gray;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(1, 36, 1);
+    color:white;
+    padding-top: 50px;
+    font-weight: 600;
+    font-size: 30px;
+    grid-area:F;
+}
