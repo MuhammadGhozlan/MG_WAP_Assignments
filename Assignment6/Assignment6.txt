@@ -1,0 +1,36 @@
+First Question:
+------------------------------------------------------------
+undefined                                                                                      
+8                                                                                                          
+8
+9
+10
+f(a,b,c){..............}
+-------------------------------------------------------------
+Second Question:
+*Local Scopes: are variables that can be accessed only 
+inside the function.
+*Global Scopes: are variables that are accessable from 
+any part of the program and they are defined outside
+the function.
+------------------------------------------------------------
+Third Question:
+1-Do statements in Scope A have
+ access to variables defined in Scope B and C?....  No
+2-Do statements in Scope B have
+ access to variables defined in Scope A?..... Yes
+3-Do statements in Scope B have
+ access to variables defined in Scope C? .....No
+4-Do statements in Scope C have 
+access to variables defined in Scope A?..... Yes
+5- Do statements in Scope C have
+ access to variables defined in Scope B?....Yes
+6- e. Do statements in Scope C have 
+access to variables defined in Scope B?....Yes
+...............................................................................
+Fourth Question:
+81
+25
+---------------------------------------------------------------
+Fifth Question
+10
