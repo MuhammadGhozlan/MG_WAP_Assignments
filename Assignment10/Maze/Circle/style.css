@@ -1,0 +1,12 @@
+.container{
+
+    border: 0.3px solid rgb(255, 249, 249);
+    width: 200px;
+    height:200px;
+    text-align: center;
+    margin:400px;
+    margin-left: 700px;
+    background-color: rgb(109, 14, 14);
+    border-radius: 100%;
+
+}

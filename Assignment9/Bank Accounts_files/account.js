@@ -46,6 +46,7 @@ class Account {
             throw new RangeError("Deposit amount has to be greater than zero");
         }
         this._balance += amount;
+        return this._balance;
     }
 
     /**
@@ -64,6 +65,7 @@ class Account {
             throw Error("Insufficient funds");
         }
         this._balance -= amount;
+        return this._balance;
     }
 
     /**
@@ -82,3 +84,5 @@ class Account {
         return ""; // does nothing
     }
 }
+
+let account=new Account(100);
